@@ -303,7 +303,7 @@ export class UsersController {
 
     user.money = user.money + paymentData.amount;
     user.save();
-    console.log(user);
+
     return {
       isLogin: true,
       userInfo: user,
