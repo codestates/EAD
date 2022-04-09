@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0px 0 180px 0;
+  margin: 0px 0 190px 0;
   @media ${(props) => props.theme.desktop2} {
     height: auto;
     min-height: 868px;
