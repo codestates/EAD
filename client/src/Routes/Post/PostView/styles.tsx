@@ -707,7 +707,7 @@ export const CommonBtn = styled.button`
     width: 40px;
   }
   @media ${(props) => props.theme.iPhone12Pro} {
-    font-size: ${(props) => props.theme.fontSize.micro};
+    font-size: ${(props) => props.theme.fontSize.dust};
     margin: 5px 0px 5px 5px;
     height: 27px;
     width: 40px;
