@@ -14,6 +14,7 @@ import { persistReducer, persistStore } from 'redux-persist';
 import { PersistGate } from 'redux-persist/integration/react';
 import storage from 'redux-persist/lib/storage';
 import App from './App';
+import ScrollToTop from './Components/ScrollUp';
 import { theme } from './utils/theme';
 
 const GlobalStyle = createGlobalStyle`
@@ -252,6 +253,7 @@ ReactDOM.render(
       <PersistGate loading={null} persistor={persistor}>
         <ThemeProvider theme={theme}>
           <BrowserRouter>
+            <ScrollToTop />
             <GlobalStyle />
             <App />
           </BrowserRouter>

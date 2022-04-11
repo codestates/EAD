@@ -177,6 +177,7 @@ function PostModify() {
           )}
           <PostMidBox>
             <PostTitle
+              autoFocus
               type="text"
               maxLength={26}
               value={title}
@@ -216,6 +217,7 @@ function PostModify() {
           </TagBox>
           <PostBotBox>
             <Editor
+              autofocus={false}
               height="420px"
               initialEditType="markdown"
               initialValue={postCon.content}

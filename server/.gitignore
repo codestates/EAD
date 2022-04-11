@@ -4,4 +4,3 @@
 .env.example
 key.pem
 cert.pem
-/dist/common/uploads/

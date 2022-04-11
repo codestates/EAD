@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
   width: 100%;
   min-height: 618px;
-  margin: 0px 0 200px 0;
+  margin: 0px 0 214px 0;
   .toastui-editor-contents {
     font-size: 17px;
   }
@@ -254,7 +254,7 @@ export const ItemBtn = styled.button`
     width: 40px;
   }
   @media ${(props) => props.theme.iPhone12Pro} {
-    font-size: ${(props) => props.theme.fontSize.micro};
+    font-size: ${(props) => props.theme.fontSize.dust};
     margin: 5px 0px 5px 6px;
     height: 27px;
     width: 40px;
