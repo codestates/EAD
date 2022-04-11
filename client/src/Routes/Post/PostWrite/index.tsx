@@ -175,6 +175,7 @@ function Post() {
           )}
           <PostMidBox>
             <PostTitle
+              autoFocus
               type="text"
               maxLength={26}
               placeholder="제목은 여기에"
@@ -214,6 +215,7 @@ function Post() {
           </TagBox>
           <PostBotBox>
             <Editor
+              autofocus={false}
               height="420px"
               initialEditType="markdown"
               ref={editorRef}

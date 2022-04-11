@@ -131,6 +131,7 @@ function Comment() {
             </ComTopBox>
           )}
           <ComTitle
+            autoFocus
             type="text"
             value={title}
             maxLength={26}
@@ -138,6 +139,7 @@ function Comment() {
           />
           <ViewerBox>
             <Editor
+              autofocus={false}
               height="438px"
               initialEditType="markdown"
               initialValue={con}
