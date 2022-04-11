@@ -14,8 +14,8 @@ import '@toast-ui/editor/dist/toastui-editor.css';
 import '@toast-ui/editor/dist/toastui-editor-viewer.css';
 import Prism from 'prismjs';
 import 'prismjs/themes/prism.css';
-import '@toast-ui/editor-plugin-code-syntax-highlight/dist/toastui-editor-plugin-code-syntax-highlight.css';
 import codeSyntaxHighlight from '@toast-ui/editor-plugin-code-syntax-highlight';
+import '@toast-ui/editor-plugin-code-syntax-highlight/dist/toastui-editor-plugin-code-syntax-highlight.css';
 import Nav from 'Components/Nav';
 import Footer from 'Components/Footer';
 import io from 'socket.io-client';
@@ -413,6 +413,7 @@ function PostView() {
               />
               <EditorBox>
                 <Editor
+                  autofocus={false}
                   height="250px"
                   initialEditType="markdown"
                   initialValue=""
