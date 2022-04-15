@@ -90,7 +90,7 @@ function Profile() {
   const [scrollY, setScrollY] = useState(0);
   const navigate = useNavigate();
   const dispatch = useDispatch<AppDispatch>();
-  console.log(userInfo);
+  
   useEffect(() => {
     if (username === '') {
       setErrNameMessage('');
